@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #202142;
+  background-color: #ffc93c;
   color: #fff;
   line-height: 1.6;
 }
@@ -34,7 +34,7 @@ header {
 
 .card {
   background-color: #fff;
-  color: #333;
+  color:#155263;
   border-radius: 15px;
   padding: 40px 50px;
   margin: 20px 0;
@@ -42,7 +42,7 @@ header {
 }
 
 .card.reverse {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color:#155263;
   color: #fff;
 }
 
@@ -87,7 +87,7 @@ header {
 
 .rating li:hover,
 .num-display {
-  background: #ff6a95;
+  background: #ff6f3c;
   color: #fff;
 }
 
@@ -96,7 +96,7 @@ header {
 }
 
 [type='radio']:checked ~ label {
-  background: #ff6a95;
+  background: #ff6f3c;
   color: #fff;
 }
 
@@ -119,7 +119,7 @@ input:focus {
 }
 
 .feedback-stats {
-  color: #fff;
+  color: #155263;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -156,11 +156,11 @@ input:focus {
 }
 
 .btn-primary {
-  background-color: #202142;
+  background-color:#1e7289;
 }
 
 .btn-secondary {
-  background: #ff6a95;
+  background: #ff6f3c;
 }
 
 .btn:hover {
@@ -182,7 +182,7 @@ input:focus {
 .message {
   padding-top: 10px;
   text-align: center;
-  color: rebeccapurple;
+  color: #ff9a3c;
 }
 
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
@@ -200,7 +200,7 @@ input:focus {
 }
 
 .about-link a:hover {
-  color: #ff6a95;
+  color: #ff6f3c;
 }
 
 .about h1 {
